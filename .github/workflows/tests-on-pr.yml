@@ -9,7 +9,7 @@ on:
 
 jobs:
   validate:
-    uses: bobleesj/release-scripts/.github/workflows/_tests-on-pr.yml@v3.13
+    uses: bobleesj/release-scripts/.github/workflows/_tests-on-pr.yml@3.13
     with:
       project: diffpy.snmf
       c_extension: false
